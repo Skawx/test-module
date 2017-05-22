@@ -1,0 +1,29 @@
+{
+  "name": "@angular/test-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/webpack/bin/webpack.js -p --config ./config/webpack.config.js --progress"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "4.0.0",
+    "@angular/core": "4.0.0",
+    "@angular/forms": "4.0.0",
+    "@angular/platform-browser": "4.0.0",
+    "@ng-bootstrap/ng-bootstrap": "1.0.0-alpha.22",
+    "@types/bootstrap": "3.3.32",
+    "@types/node": "6.0.45",
+    "angular2-template-loader": "^0.6.2",
+    "rxjs": "5.2.0",
+    "zone.js": "0.8.5"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "3.1.2",
+    "extract-text-webpack-plugin": "2.1.0",
+    "typescript": "2.2.2",
+    "webpack": "2.3.2"
+  }
+}
