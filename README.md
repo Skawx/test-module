@@ -10,4 +10,4 @@ Base test module, to create library
 
 ## Run
 
-* `npm run build
+* `npm run build`
